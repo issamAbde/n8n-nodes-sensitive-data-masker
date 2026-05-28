@@ -1,2 +1,31 @@
-dist
-node_modules
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+lib/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+.npm/
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+
+# OS Files
+Thumbs.db
+ehthumbs.db
+
+# n8n temporary development files
+.n8n/
