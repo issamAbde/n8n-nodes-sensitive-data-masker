@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-sensitive-data-masker",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "An automated privacy guard to mask PII (Emails, IBANs, Phones) in your n8n workflows.",
 	"keywords": [
 		"n8n-community-node-package",
@@ -41,5 +41,13 @@
 	},
 	"peerDependencies": {
 		"n8n-workflow": "*"
-	}
+	},
+	"repository": {
+  "type": "git",
+  "url": "git+https://github.com/issamAbde/n8n-nodes-sensitive-data-masker.git"
+},
+"bugs": {
+  "url": "https://github.com/issamAbde/n8n-nodes-sensitive-data-masker/issues"
+},
+"homepage": "https://github.com/issamAbde/n8n-nodes-sensitive-data-masker#readme"
 }
